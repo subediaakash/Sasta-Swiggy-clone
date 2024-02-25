@@ -4,9 +4,9 @@ import { MdOutlineStars } from "react-icons/md";
 
 const TopRestaurants = () => {
   return (
-    <div className="overallcontainer ">
+    <div className="overallcontainer overflow-hidden">
       <div className="discription">
-        <h1 className="text-xl font-bold  relative left-20 p-1">
+        <h1 className="text-xl font-bold  relative left-20 p-1 overflow-hidden">
           Top Restraunts in Bengaluru
         </h1>
       </div>
