@@ -35,7 +35,7 @@ const responsive = {
 };
 const Woym = () => {
   return (
-    <div>
+    <div className="pb-7 mb-2">
       <div className="container overflow-hidden">
         <div className="p-4 lg:relative lg:left-24">
           <h1 className="text-xl font-extrabold text-black">
@@ -113,6 +113,7 @@ const Woym = () => {
           </Carousel>
         </div>
       </div>
+      <div className="relative w-3/4 h-[1px] left-20 bg-slate-300"></div>
     </div>
   );
 };
