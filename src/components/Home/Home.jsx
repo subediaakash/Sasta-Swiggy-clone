@@ -1,10 +1,10 @@
 import React from "react";
-import Items from "./Items";
+import Woym from "./Woym";
 
 const Home = () => {
   return (
-    <div>
-      <Items />
+    <div className="bg-[#dee5f2]">
+      <Woym />
     </div>
   );
 };
