@@ -13,7 +13,9 @@ const Navbar = () => {
     <div className="container flex lg:justify-center  ">
       <div className="flex justify-between  lg:gap-44 py-2  ">
         <div className="lg:flex lg:items-center lg:justify-center">
-          <img src={logo} className=" w-24   h-14 lg:w-32" />
+          <NavLink to="/">
+            <img src={logo} className=" w-24   h-14 lg:w-32" />
+          </NavLink>
           <div className=" hidden lg:flex lg:items-center  hover:text-orange-400">
             <p className="text-sm">Others</p>
             <HiMiniChevronDown />
