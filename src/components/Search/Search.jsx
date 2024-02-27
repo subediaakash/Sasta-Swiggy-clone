@@ -13,7 +13,7 @@ const Search = () => {
             type="text"
             name=""
             id=""
-            className="md:w-[445px] lg:w-[556px] h-11 border border-none pointer-events-auto hover:border-orange-300  "
+            className="md:w-[445px] lg:w-[556px] h-11 border border-none pointer-events-auto focus:outline-none  hover:border-orange-300   "
             placeholder=" Enter the restaurant you want to search"
           />
         </form>
