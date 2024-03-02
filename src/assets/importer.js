@@ -17,8 +17,9 @@ import shwarma from "../assets/shwarma.jpg";
 import rotisabji from "../assets/rotisabji.jpg";
 import mutterpanneer from "../assets/mutterpanneer.jpg";
 import chillichiken from "../assets/chillichiken.jpg";
-
+import chikenroll from "../assets/chikenroll.jpg";
 export {
+  chikenroll,
   logo,
   cake,
   dosa,
